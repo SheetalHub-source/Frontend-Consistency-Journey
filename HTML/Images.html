@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML IMAGES</title>
+    <style>
+        img {
+            width: 300px;
+            height: auto;
+            margin: 10px;
+            border: 5px solid #240606;
+        }
+        body {
+  background-image: url('/Images/Image2.jpg');
+}
+    </style>
+</head>
+<body>
+<img src="/Images/Image1.jpg" alt="Image1">
+<img src="/Images/Image2.jpg" alt="Image2" usemap="#natureMap">
+<img src="programming.gif" alt="Computer Man" style="width:48px;height:48px;">
+<p><img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
+The image will float to the right of the text.</p>
+
+<p><img src="/Images/Image1.jpg" alt="Smiley face" style="float:left;width:42px;height:42px;">
+The image will float to the left of the text.</p>
+<map name="#natureMap">
+<area shape="circle" coords="34,44,27,35" href="https://en.wikipedia.org/wiki/Sun" alt="Sun Information">
+</map>
+</html>
