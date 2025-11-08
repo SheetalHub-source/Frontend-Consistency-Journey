@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+        /* background-repeat: no-repeat;
+        background-size: 100vh 100w;
+        background-image: url("/Images/Screenshot\ 2024-12-26\ 144607.png");
+        opacity: 30%; */
+        }
+        img{
+            background-size: cover;
+            height: auto;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 100%;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <picture>
+        <source srcset="/Images/Image1.jpg" media="(max-width:600px)">
+         <source srcset="/Images/image.png" media="(max-width: 800px)">
+  <source srcset="/Images/Image2.jpg" media="(max-width: 1200px)">
+    <img src="/Images/Screenshot 2024-12-26 144607.png" alt="Image" />
+    </picture>
+    <!-- <img src="/Images/Screenshot 2024-12-26 144607.png" alt="Image"> -->
+    <p>This is the content below the Image</p>
+</body>
+</html>

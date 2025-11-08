@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Layout Example</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+
+  /* Header */
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Navigation */
+  nav {
+    background-color: #333;
+  }
+  nav a {
+    color: white;
+    padding: 14px 20px;
+    display: inline-block;
+    text-decoration: none;
+  }
+  nav a:hover {
+    background-color: #575757;
+  }
+
+  /* Flex container for main content */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px; /* spacing between columns */
+  }
+
+  /* Columns */
+  .column {
+    flex: 1; /* each column takes equal space */
+    min-width: 200px; /* responsive minimum width */
+    background-color: #f4f4f4;
+    padding: 15px;
+    border: 1px solid #ccc;
+  }
+
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>My Website</h1>
+  <p>Using Semantic HTML and Flexbox Layout</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Contact</a>
+</nav>
+
+<section class="container">
+  <article class="column">
+    <h2>London</h2>
+    <p>London is the capital of England, with a rich history and cultural heritage.</p>
+  </article>
+  <article class="column">
+    <h2>Paris</h2>
+    <p>Paris is known for its art, fashion, and the iconic Eiffel Tower.</p>
+  </article>
+  <article class="column">
+    <h2>Tokyo</h2>
+    <p>Tokyo is a bustling metropolis blending tradition and modernity.</p>
+  </article>
+</section>
+
+<aside class="container column" style="flex-direction: column;">
+  <h3>Sidebar</h3>
+  <p>Additional content like ads, links, or announcements can go here.</p>
+</aside>
+
+<footer>
+  <p>© 2025 My Website. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
