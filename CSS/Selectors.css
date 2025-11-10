@@ -1,0 +1,76 @@
+/* -----------------------------
+   1. Universal Selector (*)
+   Applies to all elements on the page
+----------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* -----------------------------
+   2. Element Selector
+   Targets all <h1> elements
+----------------------------- */
+h1 {
+  color: darkblue;
+  text-align: center;
+}
+
+/* -----------------------------
+   3. ID Selector
+   Targets the element with id="main-title"
+----------------------------- */
+#main-title {
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+/* -----------------------------
+   4. Class Selector
+   Targets all elements with class="highlight"
+----------------------------- */
+.highlight {
+  background-color: yellow;
+  color: darkred;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Targets <p> elements with class="highlight" */
+p.highlight {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* -----------------------------
+   5. Grouping Selector
+   Applies same styles to multiple elements
+----------------------------- */
+h2, h3, h4 {
+  color: darkgreen;
+  font-style: italic;
+}
+
+/* -----------------------------
+   Additional example: multiple classes
+----------------------------- */
+p.center.large {
+  text-align: center;
+  font-size: 22px;
+  color: purple;
+}
+
+/* -----------------------------
+   Optional: styling links
+----------------------------- */
+a, a:visited {
+  color: teal;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
