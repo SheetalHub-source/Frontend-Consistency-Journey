@@ -1,0 +1,85 @@
+/* CSS Color Samples */
+
+/* 1. Named colors */
+.color-red {
+    color: red;
+}
+
+.color-blue {
+    color: blue;
+}
+
+.color-green {
+    color: green;
+}
+
+/* 2. Background colors using named colors */
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+/* 3. Hex colors */
+.color-hex-pink {
+    color: #ff69b4; /* hotpink */
+}
+
+.bg-hex-cyan {
+    background-color: #00ffff;
+}
+
+/* 4. RGB colors */
+.color-rgb {
+    color: rgb(128, 0, 128); /* purple */
+}
+
+.bg-rgb {
+    background-color: rgb(173, 216, 230); /* lightblue */
+}
+
+/* 5. RGBA colors (with transparency) */
+.color-rgba {
+    color: rgba(255, 99, 71, 0.8); /* tomato with opacity */
+}
+
+.bg-rgba {
+    background-color: rgba(0, 128, 0, 0.5); /* semi-transparent green */
+}
+
+/* 6. HSL colors */
+.color-hsl {
+    color: hsl(200, 100%, 50%); /* bright blue */
+}
+
+.bg-hsl {
+    background-color: hsl(120, 60%, 70%); /* soft green */
+}
+
+/* 7. Gradient backgrounds */
+.bg-gradient {
+    background: linear-gradient(to right, red, yellow);
+}
+
+.bg-gradient-diagonal {
+    background: linear-gradient(45deg, blue, pink);
+}
+
+/* 8. Border colors */
+.border-sample {
+    border: 2px solid purple;
+}
+
+/* 9. Hover color effect */
+.hover-color:hover {
+    color: orange;
+    background-color: black;
+}
+
+/* 10. Text shadow color */
+.text-shadow {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
