@@ -1,8 +1,4 @@
 {
     "livePreview.defaultPreviewPath": "/HTML/List.html",
-    "livePreview.port": 5501,
-    "livePreview.startAutomatically": true,
-    "livePreview.refreshOnSave": true,
-    "livePreview.showServerUrlInStatusBar": true
 
 }
