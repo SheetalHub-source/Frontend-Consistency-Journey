@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Display Property Example</title>
+
+<style>
+    /* Block element example */
+    .block-example {
+        display: block;
+        background: lightblue;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* Inline element example */
+    .inline-example {
+        display: inline;
+        background: rgb(55, 167, 55);
+        padding: 5px;
+    }
+
+    /* Inline-block element example */
+    .inline-block-example {
+        display: inline-block;
+        width: 120px;
+        background: lightcoral;
+        padding: 10px;
+        margin: 5px;
+        text-align: center;
+    }
+
+    /* Hidden using display:none */
+    .hidden-example {
+        display: none;
+    }
+
+    /* Hidden using visibility:hidden */
+    .visibility-hidden-example {
+        visibility: hidden;
+    }
+</style>
+</head>
+
+<body>
+
+<h2>Display Property Examples</h2>
+
+<!-- Block Example -->
+<div class="block-example">This is a BLOCK element (takes full width)</div>
+
+<!-- Inline Example -->
+<span class="inline-example">Inline 1</span>
+<span class="inline-example">Inline 2</span>
+
+<br><br>
+
+<!-- Inline-block Example -->
+<div class="inline-block-example">Box 1</div>
+<div class="inline-block-example">Box 2</div>
+<div class="inline-block-example">Box 3</div>
+
+<br><br>
+
+<!-- Hidden Elements -->
+<p class="hidden-example">You cannot see me (display:none)</p>
+
+<p class="visibility-hidden-example">I am invisible, but still take space (visibility:hidden)</p>
+
+</body>
+</html>
