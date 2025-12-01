@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .block-center {
+  margin: auto;
+  width: 50%;
+  border: 2px solid green;
+  padding: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-center {
+  display: block;
+  margin: auto;
+  width: 40%;
+}
+
+.flex-center {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid blue;
+}
+
+.grid-center {
+  height: 150px;
+  display: grid;
+  place-items: center;
+  border: 2px solid red;
+}
+
+.absolute-center {
+  position: relative;
+  height: 200px;
+  border: 2px solid purple;
+}
+
+.absolute-center p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+    </style>
+</head>
+<body>
+    <div class="block-center">Centered Block Element</div>
+
+<p class="text-center">This is centered text.</p>
+
+<img src="/Images/Image2.jpg" class="img-center">
+
+<div class="flex-center">
+  <p>Centered with Flexbox</p>
+</div>
+
+<div class="grid-center">
+  <p>Centered with Grid</p>
+</div>
+
+<div class="absolute-center">
+  <p>Absolute + Transform Center</p>
+</div>
+
+</body>
+</html>
