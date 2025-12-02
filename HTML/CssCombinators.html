@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+/* 1. Descendant Combinator (space) */
+.box p {
+  background: yellow;
+}
+
+/* 2. Child Combinator (>) */
+.box > p {
+  background: lightgreen;
+}
+
+/* 3. Next Sibling Combinator (+) */
+.box + p {
+  background: orange;
+}
+
+/* 4. Subsequent Sibling Combinator (~) */
+.box ~ p {
+  background: lightblue;
+}
+
+.box {
+  border: 2px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<h2>CSS Combinators Practical Demo</h2>
+
+<div class="box">
+  <p>Child P (Direct child of .box)</p>
+
+  <div>
+    <p>Descendant P (inside inner div → not direct child)</p>
+  </div>
+</div>
+
+<p>Adjacent Sibling P (only this one becomes orange)</p>
+
+<p>General Sibling P (becomes blue)</p>
+<p>Another General Sibling P (also blue)</p>
+
+</body>
+</html>
